@@ -91,7 +91,8 @@ def find_prime(n):
 
 #Menu
 while True:
-    print("Wylder test Python 3.10.4\n")
+    print("\n")
+    print("Wylder test Python 3.10.4 \n")
     print("Menu\n")
     print("1. Point 1\n")
     print("2. Point 2\n")
