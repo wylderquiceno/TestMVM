@@ -22,7 +22,7 @@ def point2():
     names = []
     order = []
 
-    if(re.match(expression, n) and (int(n) > 1 and int(n) < 10)):
+    if(re.match(expression, n) and (int(n) >= 1 and int(n) <= 10)):
         i = 1
         while i <= int(n):
             name = input()
@@ -47,7 +47,7 @@ def point2():
 
             print(gender + ' ' + i[0] + ' ' + i[1])
     else:
-        print("error")
+        print("error \n")
     
 
 #point4
@@ -104,6 +104,7 @@ while True:
     match option:
         case '1':
             print(point1())
+            time.sleep(2)
         case '2':
             point2()
             time.sleep(2)
